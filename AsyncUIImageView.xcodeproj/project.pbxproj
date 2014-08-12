@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C24609A19999EF6008A2EAB /* LeslieMyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C24609919999EF6008A2EAB /* LeslieMyTableViewCell.m */; };
+		7CCD216A199858E8006D7FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCD2169199858E8006D7FB7 /* Foundation.framework */; };
+		7CCD216C199858E8006D7FB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCD216B199858E8006D7FB7 /* CoreGraphics.framework */; };
+		7CCD216E199858E8006D7FB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCD216D199858E8006D7FB7 /* UIKit.framework */; };
+		7CCD2174199858E8006D7FB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CCD2172199858E8006D7FB7 /* InfoPlist.strings */; };
+		7CCD2176199858E8006D7FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD2175199858E8006D7FB7 /* main.m */; };
+		7CCD217A199858E8006D7FB7 /* LeslieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD2179199858E8006D7FB7 /* LeslieAppDelegate.m */; };
+		7CCD217C199858E8006D7FB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCD217B199858E8006D7FB7 /* Images.xcassets */; };
+		7CCD2183199858E8006D7FB7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCD2182199858E8006D7FB7 /* XCTest.framework */; };
+		7CCD2184199858E8006D7FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCD2169199858E8006D7FB7 /* Foundation.framework */; };
+		7CCD2185199858E8006D7FB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCD216D199858E8006D7FB7 /* UIKit.framework */; };
+		7CCD218D199858E8006D7FB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CCD218B199858E8006D7FB7 /* InfoPlist.strings */; };
+		7CCD218F199858E8006D7FB7 /* AsyncUIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD218E199858E8006D7FB7 /* AsyncUIImageViewTests.m */; };
+		7CCD219A19985921006D7FB7 /* LeslieMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD219919985921006D7FB7 /* LeslieMainTableViewController.m */; };
+		7CCD21A91998AA4C006D7FB7 /* UIImageView+AsyncDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD21A81998AA4C006D7FB7 /* UIImageView+AsyncDownload.m */; };
+		7CCD21AC1998AD61006D7FB7 /* LeslieAsyncImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD21AB1998AD61006D7FB7 /* LeslieAsyncImageDownloader.m */; };
+		7CCD21AF1998B8DA006D7FB7 /* LeslieImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD21AE1998B8DA006D7FB7 /* LeslieImageCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CCD2186199858E8006D7FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCD215E199858E8006D7FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCD2165199858E8006D7FB7;
+			remoteInfo = AsyncUIImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C24609819999EF6008A2EAB /* LeslieMyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeslieMyTableViewCell.h; sourceTree = "<group>"; };
+		7C24609919999EF6008A2EAB /* LeslieMyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeslieMyTableViewCell.m; sourceTree = "<group>"; };
+		7CCD2166199858E8006D7FB7 /* AsyncUIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncUIImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCD2169199858E8006D7FB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CCD216B199858E8006D7FB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CCD216D199858E8006D7FB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CCD2171199858E8006D7FB7 /* AsyncUIImageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsyncUIImageView-Info.plist"; sourceTree = "<group>"; };
+		7CCD2173199858E8006D7FB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CCD2175199858E8006D7FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CCD2177199858E8006D7FB7 /* AsyncUIImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsyncUIImageView-Prefix.pch"; sourceTree = "<group>"; };
+		7CCD2178199858E8006D7FB7 /* LeslieAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeslieAppDelegate.h; sourceTree = "<group>"; };
+		7CCD2179199858E8006D7FB7 /* LeslieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeslieAppDelegate.m; sourceTree = "<group>"; };
+		7CCD217B199858E8006D7FB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CCD2181199858E8006D7FB7 /* AsyncUIImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncUIImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCD2182199858E8006D7FB7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7CCD218A199858E8006D7FB7 /* AsyncUIImageViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsyncUIImageViewTests-Info.plist"; sourceTree = "<group>"; };
+		7CCD218C199858E8006D7FB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CCD218E199858E8006D7FB7 /* AsyncUIImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncUIImageViewTests.m; sourceTree = "<group>"; };
+		7CCD219819985921006D7FB7 /* LeslieMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeslieMainTableViewController.h; sourceTree = "<group>"; };
+		7CCD219919985921006D7FB7 /* LeslieMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeslieMainTableViewController.m; sourceTree = "<group>"; };
+		7CCD21A71998AA4C006D7FB7 /* UIImageView+AsyncDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AsyncDownload.h"; sourceTree = "<group>"; };
+		7CCD21A81998AA4C006D7FB7 /* UIImageView+AsyncDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AsyncDownload.m"; sourceTree = "<group>"; };
+		7CCD21AA1998AD61006D7FB7 /* LeslieAsyncImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeslieAsyncImageDownloader.h; sourceTree = "<group>"; };
+		7CCD21AB1998AD61006D7FB7 /* LeslieAsyncImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeslieAsyncImageDownloader.m; sourceTree = "<group>"; };
+		7CCD21AD1998B8DA006D7FB7 /* LeslieImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeslieImageCache.h; sourceTree = "<group>"; };
+		7CCD21AE1998B8DA006D7FB7 /* LeslieImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeslieImageCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCD2163199858E8006D7FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD216C199858E8006D7FB7 /* CoreGraphics.framework in Frameworks */,
+				7CCD216E199858E8006D7FB7 /* UIKit.framework in Frameworks */,
+				7CCD216A199858E8006D7FB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD217E199858E8006D7FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD2183199858E8006D7FB7 /* XCTest.framework in Frameworks */,
+				7CCD2185199858E8006D7FB7 /* UIKit.framework in Frameworks */,
+				7CCD2184199858E8006D7FB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCD215D199858E8006D7FB7 = {
+			isa = PBXGroup;
+			children = (
+				7CCD216F199858E8006D7FB7 /* AsyncUIImageView */,
+				7CCD2188199858E8006D7FB7 /* AsyncUIImageViewTests */,
+				7CCD2168199858E8006D7FB7 /* Frameworks */,
+				7CCD2167199858E8006D7FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCD2167199858E8006D7FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD2166199858E8006D7FB7 /* AsyncUIImageView.app */,
+				7CCD2181199858E8006D7FB7 /* AsyncUIImageViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCD2168199858E8006D7FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD2169199858E8006D7FB7 /* Foundation.framework */,
+				7CCD216B199858E8006D7FB7 /* CoreGraphics.framework */,
+				7CCD216D199858E8006D7FB7 /* UIKit.framework */,
+				7CCD2182199858E8006D7FB7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CCD216F199858E8006D7FB7 /* AsyncUIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				7C24609819999EF6008A2EAB /* LeslieMyTableViewCell.h */,
+				7C24609919999EF6008A2EAB /* LeslieMyTableViewCell.m */,
+				7CCD21A71998AA4C006D7FB7 /* UIImageView+AsyncDownload.h */,
+				7CCD21A81998AA4C006D7FB7 /* UIImageView+AsyncDownload.m */,
+				7CCD2178199858E8006D7FB7 /* LeslieAppDelegate.h */,
+				7CCD2179199858E8006D7FB7 /* LeslieAppDelegate.m */,
+				7CCD217B199858E8006D7FB7 /* Images.xcassets */,
+				7CCD2170199858E8006D7FB7 /* Supporting Files */,
+				7CCD219819985921006D7FB7 /* LeslieMainTableViewController.h */,
+				7CCD219919985921006D7FB7 /* LeslieMainTableViewController.m */,
+				7CCD21AA1998AD61006D7FB7 /* LeslieAsyncImageDownloader.h */,
+				7CCD21AB1998AD61006D7FB7 /* LeslieAsyncImageDownloader.m */,
+				7CCD21AD1998B8DA006D7FB7 /* LeslieImageCache.h */,
+				7CCD21AE1998B8DA006D7FB7 /* LeslieImageCache.m */,
+			);
+			path = AsyncUIImageView;
+			sourceTree = "<group>";
+		};
+		7CCD2170199858E8006D7FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD2171199858E8006D7FB7 /* AsyncUIImageView-Info.plist */,
+				7CCD2172199858E8006D7FB7 /* InfoPlist.strings */,
+				7CCD2175199858E8006D7FB7 /* main.m */,
+				7CCD2177199858E8006D7FB7 /* AsyncUIImageView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CCD2188199858E8006D7FB7 /* AsyncUIImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD218E199858E8006D7FB7 /* AsyncUIImageViewTests.m */,
+				7CCD2189199858E8006D7FB7 /* Supporting Files */,
+			);
+			path = AsyncUIImageViewTests;
+			sourceTree = "<group>";
+		};
+		7CCD2189199858E8006D7FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD218A199858E8006D7FB7 /* AsyncUIImageViewTests-Info.plist */,
+				7CCD218B199858E8006D7FB7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCD2165199858E8006D7FB7 /* AsyncUIImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCD2192199858E8006D7FB7 /* Build configuration list for PBXNativeTarget "AsyncUIImageView" */;
+			buildPhases = (
+				7CCD2162199858E8006D7FB7 /* Sources */,
+				7CCD2163199858E8006D7FB7 /* Frameworks */,
+				7CCD2164199858E8006D7FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncUIImageView;
+			productName = AsyncUIImageView;
+			productReference = 7CCD2166199858E8006D7FB7 /* AsyncUIImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCD2180199858E8006D7FB7 /* AsyncUIImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCD2195199858E8006D7FB7 /* Build configuration list for PBXNativeTarget "AsyncUIImageViewTests" */;
+			buildPhases = (
+				7CCD217D199858E8006D7FB7 /* Sources */,
+				7CCD217E199858E8006D7FB7 /* Frameworks */,
+				7CCD217F199858E8006D7FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCD2187199858E8006D7FB7 /* PBXTargetDependency */,
+			);
+			name = AsyncUIImageViewTests;
+			productName = AsyncUIImageViewTests;
+			productReference = 7CCD2181199858E8006D7FB7 /* AsyncUIImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCD215E199858E8006D7FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Leslie;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Leslie.Fang;
+				TargetAttributes = {
+					7CCD2180199858E8006D7FB7 = {
+						TestTargetID = 7CCD2165199858E8006D7FB7;
+					};
+				};
+			};
+			buildConfigurationList = 7CCD2161199858E8006D7FB7 /* Build configuration list for PBXProject "AsyncUIImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CCD215D199858E8006D7FB7;
+			productRefGroup = 7CCD2167199858E8006D7FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCD2165199858E8006D7FB7 /* AsyncUIImageView */,
+				7CCD2180199858E8006D7FB7 /* AsyncUIImageViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCD2164199858E8006D7FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD2174199858E8006D7FB7 /* InfoPlist.strings in Resources */,
+				7CCD217C199858E8006D7FB7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD217F199858E8006D7FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD218D199858E8006D7FB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCD2162199858E8006D7FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD217A199858E8006D7FB7 /* LeslieAppDelegate.m in Sources */,
+				7C24609A19999EF6008A2EAB /* LeslieMyTableViewCell.m in Sources */,
+				7CCD21A91998AA4C006D7FB7 /* UIImageView+AsyncDownload.m in Sources */,
+				7CCD21AF1998B8DA006D7FB7 /* LeslieImageCache.m in Sources */,
+				7CCD219A19985921006D7FB7 /* LeslieMainTableViewController.m in Sources */,
+				7CCD2176199858E8006D7FB7 /* main.m in Sources */,
+				7CCD21AC1998AD61006D7FB7 /* LeslieAsyncImageDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD217D199858E8006D7FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD218F199858E8006D7FB7 /* AsyncUIImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CCD2187199858E8006D7FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCD2165199858E8006D7FB7 /* AsyncUIImageView */;
+			targetProxy = 7CCD2186199858E8006D7FB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CCD2172199858E8006D7FB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCD2173199858E8006D7FB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CCD218B199858E8006D7FB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCD218C199858E8006D7FB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCD2190199858E8006D7FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CCD2191199858E8006D7FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCD2193199858E8006D7FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncUIImageView/AsyncUIImageView-Prefix.pch";
+				INFOPLIST_FILE = "AsyncUIImageView/AsyncUIImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CCD2194199858E8006D7FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncUIImageView/AsyncUIImageView-Prefix.pch";
+				INFOPLIST_FILE = "AsyncUIImageView/AsyncUIImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7CCD2196199858E8006D7FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AsyncUIImageView.app/AsyncUIImageView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncUIImageView/AsyncUIImageView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AsyncUIImageViewTests/AsyncUIImageViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7CCD2197199858E8006D7FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AsyncUIImageView.app/AsyncUIImageView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncUIImageView/AsyncUIImageView-Prefix.pch";
+				INFOPLIST_FILE = "AsyncUIImageViewTests/AsyncUIImageViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCD2161199858E8006D7FB7 /* Build configuration list for PBXProject "AsyncUIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCD2190199858E8006D7FB7 /* Debug */,
+				7CCD2191199858E8006D7FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCD2192199858E8006D7FB7 /* Build configuration list for PBXNativeTarget "AsyncUIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCD2193199858E8006D7FB7 /* Debug */,
+				7CCD2194199858E8006D7FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCD2195199858E8006D7FB7 /* Build configuration list for PBXNativeTarget "AsyncUIImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCD2196199858E8006D7FB7 /* Debug */,
+				7CCD2197199858E8006D7FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCD215E199858E8006D7FB7 /* Project object */;
+}
