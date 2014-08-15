@@ -7,4 +7,4 @@ LeslieAsyncImageLoader
 
 <p>2 GCD 异步下载</p>
 
-<p>3 内存文件双缓存，并防止错位。内存缓存基于 NSCache</p>
+<p>3 内存文件双缓存，并通过 tag 防止错位。内存缓存基于 NSCache</p>
