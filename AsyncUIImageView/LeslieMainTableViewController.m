@@ -122,8 +122,6 @@
         mycell = [[LeslieMyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:mycellId];
     }
     
-    mycell.myimage.image = nil;
-    
     NSString *imageUrl = data[indexPath.row];
     
     if (imageUrl!=nil && ![imageUrl isEqualToString:@""]) {
